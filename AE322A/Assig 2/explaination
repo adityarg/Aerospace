@@ -1,0 +1,8 @@
+1. "T", "w" and "si" will be given as input.
+2. First order system converges for positive values of "T" (LHP poles).
+3. Second order system converges when both "w" and "si" have same sign (LHP poles).
+4. All of the parameters converges to zero.
+5. Taken input (x) as zero.
+6. State space equation for 1st order system: d(y)/dt = -y/T
+7. State space equation for 2nd order system: a) d(y)/dt = y_dot
+			      		      b) d(y_dot)/dt = -2*si*w*y_dot - w*w*y
